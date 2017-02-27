@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Automatic_Garden.jnlp">
+  <information>
+    <title>Automatic_Garden</title>
+    <vendor>subhadraramakrishnan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Automatic_Garden.jar" size="10726828" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Automatic_Garden" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Automatic_Garden.Flowers"  name="Automatic_Garden" />
+  <update check="always"/>
+</jnlp>
